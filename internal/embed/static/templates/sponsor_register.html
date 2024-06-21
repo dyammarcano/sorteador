@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Sponsor</title>
+    <script src="https://unpkg.com/htmx.org"></script>
+</head>
+<body>
+    <h1>Register Sponsor</h1>
+    <form hx-post="/sponsor/submit" hx-target="#response">
+        <input type="hidden" name="ulid" value="{{.ULID}}">
+        <input type="hidden" name="uuid" value="{{.UUID}}">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="prize">Prize:</label>
+        <input type="text" id="prize" name="prize"><br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <div id="response"></div>
+</body>
+</html>

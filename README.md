@@ -1,5 +1,7 @@
 # sorteador
 
+en desarrollo ...
+
 la idea de este projecto es hacer un sorteador de numeros aleatorios, para que se pueda usar en sorteos de cualquier tipo.
 
 ## Idea

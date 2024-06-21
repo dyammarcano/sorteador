@@ -6,6 +6,8 @@ require (
 	github.com/go-chi/chi/v5 v5.0.13
 	github.com/google/uuid v1.6.0
 	github.com/inovacc/dataprovider v0.1.1
+	github.com/jmoiron/sqlx v1.4.0
+	github.com/oklog/ulid/v2 v2.0.2
 )
 
 require (
@@ -16,7 +18,6 @@ require (
 	github.com/godror/godror v0.44.0 // indirect
 	github.com/godror/knownpb v0.1.1 // indirect
 	github.com/hashicorp/golang-lru/v2 v2.0.7 // indirect
-	github.com/jmoiron/sqlx v1.4.0 // indirect
 	github.com/lib/pq v1.10.9 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
